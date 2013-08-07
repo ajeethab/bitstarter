@@ -5,13 +5,12 @@
   <TITLE>Content Tracker Toolbox</TITLE>
   <META name="viewport" content="width=device-width, initial-scale=1.0">
   <LINK rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
-  <link rel=stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-  <LINK type="text/css" rel="stylesheet" 
-      href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+  <LINK rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
   <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
   <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
   <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700, 300italic, 400italic, 500italic, 700italic" rel="stylesheet" type="text/css">
-  <link href=http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
 
   <STYLE type="text/css">
 
@@ -116,24 +115,25 @@
 <DIV class="container"><BUTTON class="btn btn-navbar" type="button" data-target=".nav-collapse" 
 data-toggle="collapse"><SPAN class="icon-bar"></SPAN><SPAN 
 class="icon-bar"></SPAN><SPAN class="icon-bar"></SPAN></BUTTON><A class="brand" 
-href="https://spark-public.s3.amazonaws.com/startup/code/bitstarter-hw4.html#">Bitstarter</A>
+href="#">Bitstarter</A>
 <DIV class="nav-collapse collapse">
 <UL class="nav">
-  <LI class="active"><A href="https://spark-public.s3.amazonaws.com/startup/code/bitstarter-hw4.html#">Home</A></LI>
-  <LI><A href="https://spark-public.s3.amazonaws.com/startup/code/bitstarter-hw4.html#about">About</A></LI>
-  <LI><A href="https://spark-public.s3.amazonaws.com/startup/code/bitstarter-hw4.html#contact">Contact</A></LI></UL></DIV><!--/.nav-collapse --></DIV></DIV></DIV><!-- We use row-fluid inside containers to achieve a resizable layout. --><!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ --><!-- http://stackoverflow.com/a/12270322 -->
+  <LI class="active"><A href="#">Home</A></LI>
+  <LI><A href="#about">About</A></LI>
+  <LI><A href="#contact">Contact</A></LI></UL></DIV><!--/.nav-collapse --></DIV></DIV></DIV><!-- We use row-fluid inside containers to achieve a resizable layout. --><!-- blogs.endjin.com/2013/04/tips-for-implementing-responsive-designs-using-bootstrap/ --><!-- http://stackoverflow.com/a/12270322 -->
 <DIV class="container"><!-- Font and paired font of .heading/.subheading and body from Google Fonts --><!-- www.google.com/fonts/specimen/Ubuntu --><!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
 <DIV class="row-fluid heading">
 <DIV class="span12">
-<H1>Content Tracker Toolbox</H1></DIV></DIV>
+<H1>Content Tracker Toolbox : V 0 1</H1></DIV></DIV>
 <DIV class="row-fluid subheading">
 <DIV class="span12"><!-- Special typography from Bootstrap for lead paragraph. --><!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
 <P class="lead">SaaS application to  help users to track changes to content on websites.</P></DIV></DIV>
 <DIV class="row-fluid pitch">
 <DIV class="span5 offset1 video"><IMG class="img-polaroid" height="253px" width="380px" src="http://i.istockimg.com/file_thumbview_approve/10118847/1/stock-photo-10118847-definition-legislation.jpg"></DIV><!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
 <DIV class="span5 actions">
+<DIV class="row-fluid">
 <DIV class="span8 offset2">
-<DIV class="statistics">
+<DIV class="row-fluid statistics">
 <DIV class="span4"><!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
@@ -148,16 +148,31 @@ href="https://spark-public.s3.amazonaws.com/startup/code/bitstarter-hw4.html#">B
 <DIV class="linediv-r">
 <H3>60</H3> 
 <P>days left</P></DIV></DIV></DIV></DIV>
+<div class="row-fluid">
 <DIV class="span10 offset1"><!-- Bootstrap progress bar --><!-- http://twitter.github.io/bootstrap/components.html#progress -->
 <DIV class="thermometer progress active">
 <DIV style="width: 60%;" class="bar bar-success"></DIV>
-<DIV style="width: 40%;" class="bar bar-warning"></DIV></DIV></DIV>
-<DIV class="span6 offset3 order"><!-- Standard Bootstrap button. --><!-- http://twitter.github.io/bootstrap/base-css.html#buttons --><BUTTON 
-class="btn btn-success btn-large">Preorder</BUTTON></DIV>
-<DIV class="span8 offset2 social"><!-- Social buttons are not included in default Bootstrap. --><!-- See: http://noizwaves.github.io/bootstrap-social-buttons --><BUTTON 
-class="btn btn-twitter"><I class="icon-twitter"></I> | Twitter</BUTTON><BUTTON 
-class="btn btn-facebook"><I class="icon-facebook"></I> | 
-Facebook</BUTTON></DIV></DIV></DIV><!-- Beyond this part the marketing copy begins. --><!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align --><!-- http://twitter.github.io/bootstrap/base-css.html#images --><!-- http://placehold.it -->
+<DIV style="width: 40%;" class="bar bar-warning"></DIV>
+</DIV></DIV></div>
+<div class="row-fluid">
+<DIV class="span6 offset3 order">
+<!-- Standard Bootstrap button. -->
+<!-- http://twitter.github.io/bootstrap/base-css.html#buttons -->
+<BUTTON class="btn btn-success btn-large">Preorder</BUTTON>
+</DIV>
+</div>
+<div class="row-fluid">
+<DIV class="span8 offset2 social">
+<!-- Social buttons are not included in default Bootstrap. -->
+<!-- See: http://noizwaves.github.io/bootstrap-social-buttons -->
+<BUTTON class="btn btn-twitter"><I class="icon-twitter"></I> | Twitter</BUTTON>
+<BUTTON class="btn btn-facebook"><I class="icon-facebook"></I> | Facebook</BUTTON>
+</DIV>
+</div>
+</DIV>
+</DIV>
+</div>
+<!-- Beyond this part the marketing copy begins. --><!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align --><!-- http://twitter.github.io/bootstrap/base-css.html#images --><!-- http://placehold.it -->
 <DIV class="row-fluid section1">
 <DIV class="span5 offset1 asset"><IMG class="img-polaroid" src="http://placehold.it/480x300.gif"></DIV>
 <DIV class="span5 copy">
@@ -177,25 +192,30 @@ and the ability to export the changes to a defined XML / CSV format.
 <P> In future the application will also support ability to mashup data from multiple sources based on defined rules, ability to export to PDF and other functionalities.
 The initial version is envisaged as a trial version which will allow each user to setup up to a maximum of three content sources to be tracked along with associated rules.
 </P></DIV>
-<DIV class="span5 asset"><IMG class="img-polaroid" src="http://placehold.it/480x300.gif"></DIV></DIV><!-- For the FAQ, we introduce a little bit of JS, using the accordion. --><!-- This brings in jquery.js and bootstrap.js as dependencies. --><!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
+<DIV class="span5 asset"><IMG class="img-polaroid" src="http://placehold.it/480x300.gif"></DIV></DIV>
+<!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
+<!-- This brings in jquery.js and bootstrap.js as dependencies. -->
+<!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
 <DIV class="row-fluid faq">
 <DIV class="span10 offset1">
 <H3>FAQ</H3>
 <DIV id="accordion2" class="accordion">
 <DIV class="accordion-group">
-<DIV class="accordion-heading"><A class="accordion-toggle" href="https://spark-public.s3.amazonaws.com/startup/code/bitstarter-hw4.html#collapseOne" 
-data-toggle="collapse" data-parent="#accordion2">                    What does 
+<DIV class="accordion-heading">
+<A class="accordion-toggle" href="#collapseOne" data-toggle="collapse" data-parent="#accordion2">                    What does 
 FAQ stand for?                  </A></DIV>
 <DIV id="collapseOne" class="accordion-body collapse">
 <DIV class="accordion-inner">                    Frequently Asked Question.      
             </DIV></DIV></DIV>
 <DIV class="accordion-group">
-<DIV class="accordion-heading"><A class="accordion-toggle" href="https://spark-public.s3.amazonaws.com/startup/code/bitstarter-hw4.html#collapseTwo" 
-"data-toggle="collapse" data-parent="#accordion2">                    What's a 
+<DIV class="accordion-heading"><A class="accordion-toggle" href="#collapseTwo" data-toggle="collapse" data-parent="#accordion2">                    What's a 
 Frequently Asked Question?                  </A></DIV>
 <DIV id="collapseTwo" class="accordion-body collapse">
 <DIV class="accordion-inner">                    A question which is commonly 
-asked by users.                  </DIV></DIV></DIV></DIV></DIV></DIV><!-- Not crucial, but we put this under a CC By-SA 3.0 license. --><!-- http://creativecommons.org/licenses/ -->
+asked by users.                  
+</DIV></DIV></DIV></DIV></DIV></DIV>
+<!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
+<!-- http://creativecommons.org/licenses/ -->
 <DIV class="row-fluid footer">
 <DIV class="span12">
 <P>This work is licensed under            the <A href="http://creativecommons.org/licenses/by-sa/3.0/">CC 
